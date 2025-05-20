@@ -24,7 +24,7 @@ Requisitos:
 - Certifique-se de que o retorno seja do tipo VARCHAR com comprimento adequado para suportar o formato brasileiro.
 
 ```sql
-SELECT data_br('2024-12-25'), data_br(curdate());
+select data_br('1987-07-21'), data_br(curdate());
 -- retorno
 -- 21/07/1987  	19/05/2025
 ```
