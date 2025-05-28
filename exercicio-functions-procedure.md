@@ -30,6 +30,7 @@ Crie uma Stored Procedure chamada atualizar_gol_partida que preencha os campos d
   - Para teste limpe antes os resultados da rodada 38
 
 ```sql
+SET SQL_SAFE_UPDATES=0;
 update partida set gol_mandante = null, gol_visitante = null where rodada = 38;
 -- RODADA 38
 CALL atualizar_gol_partida('GRE',0,3,'COR');
