@@ -57,5 +57,5 @@ Crie uma Stored Procedure chamada gerar_resultado_aleatorio que preencha aleator
 
 ```sql
 call gerar_resultado_aleatorio();
-select * from vw_classificacao;
+select * from dbcampeonatobr.vw_classificacao;
 ```
