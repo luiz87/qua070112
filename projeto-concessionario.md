@@ -54,7 +54,7 @@ Crie comandos SQL para responder:
 3. Mostre os veículos vendidos em cada venda.  
 4. Liste o total de vendas (valor) por vendedor.  
 5. Mostre o total gasto por cada cliente.  
-6. Liste os veículos que ainda não foram vendidos.
+~6. Liste os veículos que ainda não foram vendidos.~
 
 ---
 
